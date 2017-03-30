@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manojit Nandi on Manojit Nandi</title>
-    <link>/lejit.github.io/index.xml</link>
+    <link>/LeJit.github.io/index.xml</link>
     <description>Recent content in Manojit Nandi on Manojit Nandi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Manojit Nandi</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/lejit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/LeJit.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Revisiting Euler&#39;s Formula</title>
-      <link>/lejit.github.io/post/euler-formula/</link>
+      <link>/LeJit.github.io/post/euler-formula/</link>
       <pubDate>Sat, 01 Apr 2017 00:05:15 -0400</pubDate>
       
-      <guid>/lejit.github.io/post/euler-formula/</guid>
+      <guid>/LeJit.github.io/post/euler-formula/</guid>
       <description>&lt;p&gt;In AP Calculus, my teacher introduced me to Euler&amp;rsquo;s formula,
 and he proved this equality by breaking up the Taylor Series representation of the exponential function into the Taylor Series of cosine and sine. This algebraic proof is simple, and I&amp;rsquo;ve included it below for readers who are not familiar with it:&lt;/p&gt;
 
@@ -70,7 +70,7 @@ derivatives = map(lambda x:  x*1j, positions)
 
 &lt;p&gt;Now we can plot the path of the particle along with the derivative at each position. Below I have plotted the particle&amp;rsquo;s position and corresponding derivative vector for every 100 timesteps.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;lejit.github.io/img/Euler.png&#34; alt=&#34;Derivative Plot&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;LeJit.github.io/img/Euler.png&#34; alt=&#34;Derivative Plot&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We see the particle&amp;rsquo;s path traces out the circular shape we expect, but we also notice another interesting feature. At each step, the particle&amp;rsquo;s derivative vector is perpendicular to the location. Because the derivative is just the location multiplied by $i$, multiplying by $i$ must have the property of inducing a ninty-degrees rotation. Let&amp;rsquo;s explore whether this is true.&lt;/p&gt;
 
@@ -106,11 +106,11 @@ $$&lt;/p&gt;
     
     <item>
       <title>StealthDEFEND</title>
-      <link>/lejit.github.io/project/defend/</link>
+      <link>/LeJit.github.io/project/defend/</link>
       <pubDate>Thu, 30 Mar 2017 00:14:17 -0400</pubDate>
       
-      <guid>/lejit.github.io/project/defend/</guid>
-      <description>&lt;p&gt;StealthDEFEND is an enterprise-scale security software for User and Entity Behavior Analytics to identify abnormal behavior indicative of compromised accounts or insider threat. As the Lead Data Scientist for STEALTHbits, I am responsible for the research and design of the machine learning algoirthms used to detect anomalous behavior. I work with development teams to integrate new algorithms into StealthDEFEND. I have given talks at &lt;a href=&#34;lejit.github.io/lejit.github.io/talk/dataengconf/&#34; target=&#34;_blank&#34;&gt;Data Engineering Conference&lt;/a&gt; and &lt;a href=&#34;lejit.github.io/lejit.github.io/talk/pygotham/&#34; target=&#34;_blank&#34;&gt;PyGotham&lt;/a&gt; about the algorithms and lessons I have learned while building the product.In addition, I collaborated with marketing teams to produce a series of blog posts on the company website about Local Outlier Factor, one of the algorithms implemented in DEFEND:&lt;/p&gt;
+      <guid>/LeJit.github.io/project/defend/</guid>
+      <description>&lt;p&gt;StealthDEFEND is an enterprise-scale security software for User and Entity Behavior Analytics to identify abnormal behavior indicative of compromised accounts or insider threat. As the Lead Data Scientist for STEALTHbits, I am responsible for the research and design of the machine learning algoirthms used to detect anomalous behavior. I work with development teams to integrate new algorithms into StealthDEFEND. I have given talks at &lt;a href=&#34;LeJit.github.io/LeJit.github.io/talk/dataengconf/&#34; target=&#34;_blank&#34;&gt;Data Engineering Conference&lt;/a&gt; and &lt;a href=&#34;LeJit.github.io/LeJit.github.io/talk/pygotham/&#34; target=&#34;_blank&#34;&gt;PyGotham&lt;/a&gt; about the algorithms and lessons I have learned while building the product.In addition, I collaborated with marketing teams to produce a series of blog posts on the company website about Local Outlier Factor, one of the algorithms implemented in DEFEND:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.stealthbits.com/2016/03/17/local-outlier-factor-part-1/&#34; target=&#34;_blank&#34;&gt;Local Outlier Factor, Part 1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -126,56 +126,56 @@ $$&lt;/p&gt;
     
     <item>
       <title>Anomaly Detection for Real-World Systems</title>
-      <link>/lejit.github.io/talk/dataengconf/</link>
+      <link>/LeJit.github.io/talk/dataengconf/</link>
       <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/talk/dataengconf/</guid>
+      <guid>/LeJit.github.io/talk/dataengconf/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Anomaly Detection Algorithms and Techniques</title>
-      <link>/lejit.github.io/talk/pygotham/</link>
+      <link>/LeJit.github.io/talk/pygotham/</link>
       <pubDate>Sun, 17 Jul 2016 17:16:14 -0400</pubDate>
       
-      <guid>/lejit.github.io/talk/pygotham/</guid>
+      <guid>/LeJit.github.io/talk/pygotham/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intro to Machine Learning</title>
-      <link>/lejit.github.io/talk/mlintro/</link>
+      <link>/LeJit.github.io/talk/mlintro/</link>
       <pubDate>Thu, 12 May 2016 23:58:47 -0400</pubDate>
       
-      <guid>/lejit.github.io/talk/mlintro/</guid>
+      <guid>/LeJit.github.io/talk/mlintro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A/B Testing with Hierachical Models in Python</title>
-      <link>/lejit.github.io/project/abtesting/</link>
+      <link>/LeJit.github.io/project/abtesting/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/project/abtesting/</guid>
+      <guid>/LeJit.github.io/project/abtesting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Density Based Clustering</title>
-      <link>/lejit.github.io/project/clustering/</link>
+      <link>/LeJit.github.io/project/clustering/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/project/clustering/</guid>
+      <guid>/LeJit.github.io/project/clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Distinguishing between Different Mechanisms of Network Evolution using Network Motifs and Machine Learning</title>
-      <link>/lejit.github.io/publication/motif/</link>
+      <link>/LeJit.github.io/publication/motif/</link>
       <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/publication/motif/</guid>
+      <guid>/LeJit.github.io/publication/motif/</guid>
       <description>&lt;p&gt;My undergraduate Honor Thesis for the Quantitative Social Science Scholars program and the Machine Learning minor.&lt;/p&gt;
 </description>
     </item>

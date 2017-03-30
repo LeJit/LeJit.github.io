@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Manojit Nandi</title>
-    <link>/lejit.github.io/tags/python/index.xml</link>
+    <link>/LeJit.github.io/tags/python/index.xml</link>
     <description>Recent content in Python on Manojit Nandi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Manojit Nandi</copyright>
-    <atom:link href="/lejit.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/LeJit.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Density Based Clustering</title>
-      <link>/lejit.github.io/project/clustering/</link>
+      <link>/LeJit.github.io/project/clustering/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/project/clustering/</guid>
+      <guid>/LeJit.github.io/project/clustering/</guid>
       <description></description>
     </item>
     

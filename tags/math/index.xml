@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math on Manojit Nandi</title>
-    <link>/lejit.github.io/tags/math/index.xml</link>
+    <link>/LeJit.github.io/tags/math/index.xml</link>
     <description>Recent content in Math on Manojit Nandi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Manojit Nandi</copyright>
-    <atom:link href="/lejit.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/LeJit.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Revisiting Euler&#39;s Formula</title>
-      <link>/lejit.github.io/post/euler-formula/</link>
+      <link>/LeJit.github.io/post/euler-formula/</link>
       <pubDate>Sat, 01 Apr 2017 00:05:15 -0400</pubDate>
       
-      <guid>/lejit.github.io/post/euler-formula/</guid>
+      <guid>/LeJit.github.io/post/euler-formula/</guid>
       <description>&lt;p&gt;In AP Calculus, my teacher introduced me to Euler&amp;rsquo;s formula,
 and he proved this equality by breaking up the Taylor Series representation of the exponential function into the Taylor Series of cosine and sine. This algebraic proof is simple, and I&amp;rsquo;ve included it below for readers who are not familiar with it:&lt;/p&gt;
 
@@ -69,7 +69,7 @@ derivatives = map(lambda x:  x*1j, positions)
 
 &lt;p&gt;Now we can plot the path of the particle along with the derivative at each position. Below I have plotted the particle&amp;rsquo;s position and corresponding derivative vector for every 100 timesteps.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;lejit.github.io/img/Euler.png&#34; alt=&#34;Derivative Plot&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;LeJit.github.io/img/Euler.png&#34; alt=&#34;Derivative Plot&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We see the particle&amp;rsquo;s path traces out the circular shape we expect, but we also notice another interesting feature. At each step, the particle&amp;rsquo;s derivative vector is perpendicular to the location. Because the derivative is just the location multiplied by $i$, multiplying by $i$ must have the property of inducing a ninty-degrees rotation. Let&amp;rsquo;s explore whether this is true.&lt;/p&gt;
 

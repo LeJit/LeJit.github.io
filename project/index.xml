@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Manojit Nandi</title>
-    <link>/lejit.github.io/project/index.xml</link>
+    <link>/LeJit.github.io/project/index.xml</link>
     <description>Recent content in Projects on Manojit Nandi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Manojit Nandi</copyright>
     <lastBuildDate>Thu, 30 Mar 2017 00:14:17 -0400</lastBuildDate>
-    <atom:link href="/lejit.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/LeJit.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>StealthDEFEND</title>
-      <link>/lejit.github.io/project/defend/</link>
+      <link>/LeJit.github.io/project/defend/</link>
       <pubDate>Thu, 30 Mar 2017 00:14:17 -0400</pubDate>
       
-      <guid>/lejit.github.io/project/defend/</guid>
-      <description>&lt;p&gt;StealthDEFEND is an enterprise-scale security software for User and Entity Behavior Analytics to identify abnormal behavior indicative of compromised accounts or insider threat. As the Lead Data Scientist for STEALTHbits, I am responsible for the research and design of the machine learning algoirthms used to detect anomalous behavior. I work with development teams to integrate new algorithms into StealthDEFEND. I have given talks at &lt;a href=&#34;lejit.github.io/lejit.github.io/talk/dataengconf/&#34; target=&#34;_blank&#34;&gt;Data Engineering Conference&lt;/a&gt; and &lt;a href=&#34;lejit.github.io/lejit.github.io/talk/pygotham/&#34; target=&#34;_blank&#34;&gt;PyGotham&lt;/a&gt; about the algorithms and lessons I have learned while building the product.In addition, I collaborated with marketing teams to produce a series of blog posts on the company website about Local Outlier Factor, one of the algorithms implemented in DEFEND:&lt;/p&gt;
+      <guid>/LeJit.github.io/project/defend/</guid>
+      <description>&lt;p&gt;StealthDEFEND is an enterprise-scale security software for User and Entity Behavior Analytics to identify abnormal behavior indicative of compromised accounts or insider threat. As the Lead Data Scientist for STEALTHbits, I am responsible for the research and design of the machine learning algoirthms used to detect anomalous behavior. I work with development teams to integrate new algorithms into StealthDEFEND. I have given talks at &lt;a href=&#34;LeJit.github.io/LeJit.github.io/talk/dataengconf/&#34; target=&#34;_blank&#34;&gt;Data Engineering Conference&lt;/a&gt; and &lt;a href=&#34;LeJit.github.io/LeJit.github.io/talk/pygotham/&#34; target=&#34;_blank&#34;&gt;PyGotham&lt;/a&gt; about the algorithms and lessons I have learned while building the product.In addition, I collaborated with marketing teams to produce a series of blog posts on the company website about Local Outlier Factor, one of the algorithms implemented in DEFEND:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.stealthbits.com/2016/03/17/local-outlier-factor-part-1/&#34; target=&#34;_blank&#34;&gt;Local Outlier Factor, Part 1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -32,19 +32,19 @@
     
     <item>
       <title>A/B Testing with Hierachical Models in Python</title>
-      <link>/lejit.github.io/project/abtesting/</link>
+      <link>/LeJit.github.io/project/abtesting/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/project/abtesting/</guid>
+      <guid>/LeJit.github.io/project/abtesting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Density Based Clustering</title>
-      <link>/lejit.github.io/project/clustering/</link>
+      <link>/LeJit.github.io/project/clustering/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/project/clustering/</guid>
+      <guid>/LeJit.github.io/project/clustering/</guid>
       <description></description>
     </item>
     

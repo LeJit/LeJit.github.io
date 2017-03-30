@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Manojit Nandi</title>
-    <link>/lejit.github.io/talk/index.xml</link>
+    <link>/LeJit.github.io/talk/index.xml</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Manojit Nandi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Manojit Nandi</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/lejit.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/LeJit.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Anomaly Detection for Real-World Systems</title>
-      <link>/lejit.github.io/talk/dataengconf/</link>
+      <link>/LeJit.github.io/talk/dataengconf/</link>
       <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/lejit.github.io/talk/dataengconf/</guid>
+      <guid>/LeJit.github.io/talk/dataengconf/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Anomaly Detection Algorithms and Techniques</title>
-      <link>/lejit.github.io/talk/pygotham/</link>
+      <link>/LeJit.github.io/talk/pygotham/</link>
       <pubDate>Sun, 17 Jul 2016 17:16:14 -0400</pubDate>
       
-      <guid>/lejit.github.io/talk/pygotham/</guid>
+      <guid>/LeJit.github.io/talk/pygotham/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intro to Machine Learning</title>
-      <link>/lejit.github.io/talk/mlintro/</link>
+      <link>/LeJit.github.io/talk/mlintro/</link>
       <pubDate>Thu, 12 May 2016 23:58:47 -0400</pubDate>
       
-      <guid>/lejit.github.io/talk/mlintro/</guid>
+      <guid>/LeJit.github.io/talk/mlintro/</guid>
       <description></description>
     </item>
     
