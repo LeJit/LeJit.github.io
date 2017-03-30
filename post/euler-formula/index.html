@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.19" />
+  <meta name="author" content="Manojit Nandi">
+  <meta name="description" content="Lead Data Scientist">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/lejit.github.io/css/highlight.min.css">
+    
+  
+  <link rel="stylesheet" href="/lejit.github.io/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/lejit.github.io/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/lejit.github.io/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/lejit.github.io/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="lejit.github.io/index.xml" type="application/rss+xml" title="Manojit Nandi">
+  <link rel="feed" href="lejit.github.io/index.xml" type="application/rss+xml" title="Manojit Nandi">
+
+  <link rel="icon" type="image/png" href="/lejit.github.io/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/lejit.github.io/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="/lejit.github.io/post/euler-formula/">
+
+  
+
+  <title>Revisiting Euler&#39;s Formula | Manojit Nandi</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/lejit.github.io/">Manojit Nandi</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/lejit.github.io/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/lejit.github.io/#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/lejit.github.io/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/lejit.github.io/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/lejit.github.io/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+  <div class="article-header">
+    <img src="/lejit.github.io/img//headers/mathML.jpg" class="article-banner" itemprop="image">
+    <span class="article-header-caption">Math</span>
+  </div>
+  
+
+  <div class="article-container">
+    <h1 itemprop="name">Revisiting Euler&#39;s Formula</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-04-01 00:05:15 -0400 EDT" itemprop="datePublished">
+      Sat, Apr 1, 2017
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/lejit.github.io/tags/math">math</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2flejit.github.io%2fpost%2feuler-formula%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Revisiting%20Euler%27s%20Formula&amp;url=%2flejit.github.io%2fpost%2feuler-formula%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2flejit.github.io%2fpost%2feuler-formula%2f&amp;title=Revisiting%20Euler%27s%20Formula"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2flejit.github.io%2fpost%2feuler-formula%2f&amp;title=Revisiting%20Euler%27s%20Formula"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Revisiting%20Euler%27s%20Formula&amp;body=%2flejit.github.io%2fpost%2feuler-formula%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>In AP Calculus, my teacher introduced me to Euler&rsquo;s formula,
+and he proved this equality by breaking up the Taylor Series representation of the exponential function into the Taylor Series of cosine and sine. This algebraic proof is simple, and I&rsquo;ve included it below for readers who are not familiar with it:</p>
+
+<p>$$e^{ix} = \sum_{n=0} ^{\infty} \dfrac{(ix)^n}{n!} = \dfrac{(ix)^0}{0!} + \dfrac{ix}{1!} + &hellip; + \dfrac{(ix)^n}{n!} + ..$$</p>
+
+<p>We can split this series into two summations, one for the odd  terms and the other for evens.</p>
+
+<p>$$=\sum_{n=0} ^{\infty} \dfrac{(ix)^{2n}}{(2n)!}+\sum ^{\infty} _{m=0} \dfrac{(ix)^{2m+1}}{(2m+1)!}$$</p>
+
+<p>Using the fact that $i^2 = -1$, we can re-write $i^{2n} = (i^2)^n = (-1)^n$ and $i^{2n+1} = i^{2n} * i =  i(-1)^n$, so the above two summations become</p>
+
+<p>$$=\sum_{n=0} ^{\infty} \dfrac{(-1)^n(x)^{2n}}{(2n)!}+i\sum ^{\infty} _{m=0} \dfrac{(-1)^m(x)^{2m+1}}{(2m+1)!}$$</p>
+
+<p>In our calculus class, we learned that $\cos(x) =  \sum _{n=0} ^{\infty} \dfrac{(-1)^n (x)^{2n}}{(2n)!}$
+and  $\sin(x) = \sum ^{\infty} _{n=0} \dfrac{(-1)^n (x)^{2n+1}}{(2n+1)!}$, so this means</p>
+
+<p>$$e^{ix} = \sum_{n=0} ^{\infty} \dfrac{(-1)^n (x)^{2n}}{(2n)!} + i\sum ^{\infty} _{n=0} \dfrac{(-1)^n (x)^{2n+1}}{(2n+1)!} = \cos(x) + i\sin(x)$$</p>
+
+<p>Like many other calculus students, I fell in love with this formula, and for many years, I cited this formula as my favorite example of mathematical beauty; that such as concise formula could arise relating the exponential function to simple trigonometric functions.</p>
+
+<p>However, five years later and after many rigorous proof-based math courses, I look back on this proof and realize how abysmal it is. Why does the exponential function, which is strictly positive and monotonically increasing over the real numbers, lose all of these properties when defined over imaginary numbers? What does it mean to raise something to the $i$th power?</p>
+
+<p>In this post, I aim not to provide a more rigorous proof of Euler&rsquo;s formula, but rather I seek to explain how I developed some mathematical intuition behind this famous formula.</p>
+
+<p>Before we can talk about complex numbers, we must develop some intuition about the number <strong>i</strong>. Well, let&rsquo;s think about why the irrational numbers were discovered. Suppose we have a right triangle with both sides being length 1. By the Pythagorean theorem, we know the hypothenuse is of length $x$ such that $x^2 = 2$.  We can extend this question and ask &ldquo;Is there some number <strong>x</strong> such that  x<sup>2</sup> = 3; How about x<sup>2</sup> = 5?&ldquo;.</p>
+
+<p>Let&rsquo;s go in the other direction and ask &ldquo;Can we find an <strong>x</strong> such that $\textbf{x}^2 $ = -1?&ldquo;. To solve this problem, we define the number <strong>i</strong> such that $\textbf{i} ^2 $ = -1. After we have defined <strong>i</strong>, we can define a complex number <strong>z</strong> of the form <strong>z</strong> = a + b<strong>i</strong> for any real numbers a,b.
+We commonly refer to $a$ as the $\textit{real}$ component of <strong>z</strong>, and $b\textbf{i}$ as the imaginary component of <strong>z</strong>. This allows us to refer to the complex number <strong>z</strong> as the tuple (a,b). Hopefully, this tuple looks familiar to you because we use the same notation to denote a point in 2D space, $\mathcal{R}^2$, where each element of this set is commonly expressed in the form (x,y). Because of this, we can visualize complex numbers as points in 2D space in which the x-axis denotes the real component $a$ and the y-axis denotes the imaginary component $b$.</p>
+
+<p>To perform multiplication using complex numbers, we just apply FOIL. For two complex numbers $(a + bi)$ and $(c + di)$, the product $(a+bi)(c+di) = ac + adi + cbi + bdi^2 = (ac - bd) + (ad + bc)i$. From this, we see that multiplying a complex number by $i$ yields $i*(a+bi) = -b + ai$.</p>
+
+<p>As an aside for the more mathematically interested reader, this connection to $R^2$ follows from a more mathematically rigorous motivation for the complex numbers. The real numbers $\mathcal{R}$ form an algebraic field, so one would naturally try to extend this field structure to $\mathcal{R}^2$. As stated above, elements of $\mathcal{R}^2$ are expressed by the tuple (x,y) for $x,y \in \mathcal{R}$. While addition extends as expected to $\mathcal{R}^2$, meaning $(x_1, y_1) + (x_2, y_2) = (x_1 + x_2, y_1 + y_2)$, we run into a problem when trying to extend multiplication as expected. If we tried to define multiplication in $\mathcal{R}^2$ as $(x_1, y_1)$$(x_2, y_2)$ = $(x_1 x_2, y_1 y_2)$, we run into the problem where many ordered pairs do not exhibit unique multiplicative inverses. For example, what ordered pair $(x,y)$ would I multiply with $(2,3)$ such that $(2,3)*(x,y) = (1,0)$? Is it different from the ordered pair I would I multiply with $(2,4)$ to get $(1,0)$? Because both these ordered pairs have a multiplicative inverse of $(\dfrac{1}{2}, 0)$, the multiplicative inverse is not unique. While the requirement that the multiplicative inverse is unique is not a field axiom, <a href="https://proofwiki.org/wiki/Multiplicative_Inverse_is_Unique" target="_blank">it is trivial to prove that this must be true in any field</a>.</p>
+
+<p>We can now begin to reason about the behavior of $e^{ix}$ by visualizing a particle moving along a path in $\mathcal{R}^2$. For convinience, I will refer to the function as $e^{it}$ to denote the motion of the particle as a function of time. Now, we have the location of the particle $x(t) = e^{it}$ for $t \in \mathcal{R}$, and $x(t) = (a,b) \in \mathcal{C}$. Now, we will derivative of this function $v(t) = \dfrac{dx}{dt} = ie^{it}$. Because $x(t) = e^{it}$, $v(t)$ can be expressed as $v(t) = i*x(t)$.</p>
+
+<p>Now our particle can begin its journey. At time $t = 0$, the particle&rsquo;s location is $x(0) = e^{i*0} = e^{0} = 1$. In our coordinate systems, this point is represented as (1, 0). At time $t = 0$, the particle&rsquo;s velocity is $v(t) = i*x(0) = i*1 = i$. In our coordinate system, the velocity vector points in the (0,1) direction.</p>
+
+<p>Using Newtonian approximation, we can estimate the particle&rsquo;s location after some time $\epsilon$ has passed. Recall from your calculus course, Newtonian approximates $f(y)$ as $f(y)$ = $f(x)$ + $f&rsquo;(x)$$(y-x)$ for some known $f(x)$ and $f&rsquo;(x)$. Similarly, we can approximate $x(\epsilon)$ = $x(0)$ + $v(0)(\epsilon - 0)$ = $1 + \epsilon i$, so the particle is at point (1, $\epsilon$). Now the derivative at this time can be calculated as $v(\epsilon) = i*(1 + \epsilon i) = - \epsilon + 1i$.</p>
+
+<p>We can repeat this process for timesteps of size $\epsilon$ to trace out the path of the particle. I have included Python code below to trace out the path of the particle.</p>
+
+<pre><code class="language-python">import cmath
+
+epsilon = Math.PI/1000
+x = 1 + 0j #Starting position at t = 0
+positions = [x] #Array containing initial position
+for i in xrange(2000): 
+    x = x + x*epsilon*1j 
+    positions.append(x)
+derivatives = map(lambda x:  x*1j, positions)
+</code></pre>
+
+<p>Now we can plot the path of the particle along with the derivative at each position. Below I have plotted the particle&rsquo;s position and corresponding derivative vector for every 100 timesteps.</p>
+
+<p><img src="/img/Euler.png" alt="Derivative Plot" /></p>
+
+<p>We see the particle&rsquo;s path traces out the circular shape we expect, but we also notice another interesting feature. At each step, the particle&rsquo;s derivative vector is perpendicular to the location. Because the derivative is just the location multiplied by $i$, multiplying by $i$ must have the property of inducing a ninty-degrees rotation. Let&rsquo;s explore whether this is true.</p>
+
+<p>From earlier, we represented complex numbers using the ordered pair (a,b). If you recall from your trigonometry course, we can convert points from rectangular coordinates (x,y) to polar coordinates (r, $\theta$) using the transformation $x = r \cos(\theta)$ and $y = r \sin(\theta)$. This means we can represent complex numbers (a,b) as (r, $\theta$) where $a = \cos(\theta)$ and $ b = r \sin(\theta)$, so therefore $a + bi = r\cos(\theta) + r\sin(\theta) i$. If we multiply $(r\cos(\theta) + r\sin(\theta) i)$ by $i$, we get $$i*(r\cos(\theta) + r\sin(\theta) i) = -r \sin(\theta) + r \cos(\theta) i$$.</p>
+
+<p>Two nice properties of $\sin$ and $\cos$ are:</p>
+
+<p>$$
+\sin(\theta + \frac{\pi}{2}) = \cos(\theta)
+$$
+$$
+\cos(\theta + \frac{\pi}{2}) = -\sin(\theta)
+$$</p>
+
+<p>Now we see that if we rotate the point $(r \cos(\theta), r \sin(\theta))$ by ninty degrees, we get $(-r\sin(\theta), r\cos(\theta))$. This is the same thing we got when we multiplied the point by $i$. Therefore, our intuition is correct that multiplying by $i$ induces a ninty degrees rotation. Furthermore, we can derive the insight that $$e^{it} = a + bi = r\cos(\theta) + r\sin(\theta) i \Rightarrow e^{it} = r\cos(\theta) + r\sin(\theta) i $$. Therefore, the interesting result about Euler&rsquo;s formula is not that $e^{it}$ can be expressed in terms of $\sin$ and $\cos$, but rather the function maintains a constant radius of 1.</p>
+
+<p>As I stated earlier, the goal of this post is not to provide a rigorous proof of Euler&rsquo;s formula but rather provide some insight as to why this formula is true. I decided on this topic for my first post because it was something that I have been thinking about for a while, and by reflecting on how my thoughts on this formula changed, I gained insight as to how I evolved as a mathematician. I have included below the code that I used to plot the complex numbers and their corresponding vectors for anyone who wishes to play around with complex numbers.</p>
+
+<pre><code class="language-python">def plotComplexPointsAndVectors(locations, derivatives):
+      X,Y = zip(*map(lambda x: (x.real, x.imag), locations))
+      U,V = zip(*map(lambda x: (x.real, x.imag), derivatives))
+      plt.plot(X,Y, &quot;ro-&quot;, label=&quot;python&quot;)
+      limit = np.max(np.ceil(np.absolute(points)))
+      plt.xlim((-limit, limit))
+      plt.ylim((-limit, limit))
+      plt.xlabel(&quot;Real&quot;)
+      plt.ylabel(&quot;Imaginary&quot;)
+      plt.quiver(X,Y,U,V, linewidths = 2)
+      plt.show()
+</code></pre>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Manojit Nandi &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/lejit.github.io/js/jquery-1.12.3.min.js"></script>
+    <script src="/lejit.github.io/js/bootstrap.min.js"></script>
+    <script src="/lejit.github.io/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="/lejit.github.io/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+
+  </body>
+</html>
+
