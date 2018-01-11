@@ -11,6 +11,24 @@
     <atom:link href="/LeJit.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Algorithmic Fairness and Algorithmic Discrimination</title>
+      <link>/LeJit.github.io/talk/pygotham-fairness/</link>
+      <pubDate>Fri, 06 Oct 2017 08:58:22 -0500</pubDate>
+      
+      <guid>/LeJit.github.io/talk/pygotham-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bias, Ethics and Justice in the Age of AI</title>
+      <link>/LeJit.github.io/talk/data-science-popup/</link>
+      <pubDate>Wed, 14 Jun 2017 08:21:52 -0500</pubDate>
+      
+      <guid>/LeJit.github.io/talk/data-science-popup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Anomaly Detection for Real-World Systems</title>
       <link>/LeJit.github.io/talk/dataengconf/</link>
       <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
