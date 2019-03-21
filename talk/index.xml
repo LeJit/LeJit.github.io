@@ -6,9 +6,27 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Manojit Nandi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Manojit Nandi</copyright>
+    <copyright>&amp;copy; 2019 Manojit Nandi</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/LeJit.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Measures and Mismeasures of Algorithmic Fairness</title>
+      <link>/LeJit.github.io/talk/measures-fairness/</link>
+      <pubDate>Sat, 17 Nov 2018 22:54:09 -0400</pubDate>
+      
+      <guid>/LeJit.github.io/talk/measures-fairness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interpretable Machine Learning: Methods for understanding complex models</title>
+      <link>/LeJit.github.io/talk/interpretable-ml/</link>
+      <pubDate>Wed, 10 Oct 2018 22:54:18 -0400</pubDate>
+      
+      <guid>/LeJit.github.io/talk/interpretable-ml/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Algorithmic Fairness and Algorithmic Discrimination</title>
