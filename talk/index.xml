@@ -6,7 +6,7 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Manojit Nandi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Manojit Nandi</copyright>
+    <copyright>&amp;copy; 2020 Manojit Nandi</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/LeJit.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -29,15 +29,6 @@
     </item>
     
     <item>
-      <title>Algorithmic Fairness and Algorithmic Discrimination</title>
-      <link>/LeJit.github.io/talk/pygotham-fairness/</link>
-      <pubDate>Fri, 06 Oct 2017 08:58:22 -0500</pubDate>
-      
-      <guid>/LeJit.github.io/talk/pygotham-fairness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Bias, Ethics and Justice in the Age of AI</title>
       <link>/LeJit.github.io/talk/data-science-popup/</link>
       <pubDate>Wed, 14 Jun 2017 08:21:52 -0500</pubDate>
@@ -52,24 +43,6 @@
       <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>/LeJit.github.io/talk/dataengconf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anomaly Detection Algorithms and Techniques</title>
-      <link>/LeJit.github.io/talk/pygotham/</link>
-      <pubDate>Sun, 17 Jul 2016 17:16:14 -0400</pubDate>
-      
-      <guid>/LeJit.github.io/talk/pygotham/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intro to Machine Learning</title>
-      <link>/LeJit.github.io/talk/mlintro/</link>
-      <pubDate>Thu, 12 May 2016 23:58:47 -0400</pubDate>
-      
-      <guid>/LeJit.github.io/talk/mlintro/</guid>
       <description></description>
     </item>
     
